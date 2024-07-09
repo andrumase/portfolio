@@ -74,7 +74,7 @@ gsap.to("#in1",{
     scrollTrigger:{
         trigger:"#nav",
         scroller:"body",
-        markers:true,
+       // markers:true,
         start:"top -60%",
         end:"top -61%",
         scrub:2,
@@ -90,7 +90,7 @@ gsap.to("#ln",{
     scrollTrigger:{
         trigger:"#ln",
         scroller:"body",
-        markers:true,
+        //markers:true,
         start:"top -60%",
         end:"top -61%",
         scrub:2,
@@ -105,7 +105,7 @@ gsap.to(".me",{
     scrollTrigger:{
         trigger:".me",
         scroller:"body",
-        markers:true,
+       // markers:true,
         start:"top 160%",
         end:"top 110%",
         scrub:2,
@@ -121,7 +121,7 @@ gsap.to("#in2",{
        
         trigger:"#nav",
         scroller:"body",
-        markers:true,
+        //markers:true,
         start:"top -60%",
         end:"top -61%",
         scrub:2,
@@ -139,7 +139,7 @@ gsap.to("#in3",{
         trigger:"#nav",
         scroller:"body",
         ease: "back.out(1.7)",
-        markers:true,
+        //markers:true,
         start:"top -80%",
         end:"top -81%",
         scrub:2,
@@ -150,7 +150,7 @@ let tl2 = gsap.timeline({
     scrollTrigger:{
         trigger:"#nav",
         scroller:"body",
-        markers:true,
+       // markers:true,
         start:"top -170%",
         end:"top -171%",
         scrub:2,
