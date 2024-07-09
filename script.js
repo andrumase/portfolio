@@ -60,7 +60,7 @@ gsap.to(".nav h1",{
     scrollTrigger:{
         trigger:"#nav",
         scroller:"body",
-        markers:true,
+       // markers:true,
         start:"top -50%",
         end:"top -51%",
         scrub:2,
